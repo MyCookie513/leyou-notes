@@ -1,0 +1,35 @@
+SpringBoot自动配置：
+ 1、要有一个@EnableAutoConfiguration开关
+ 2、一旦开启，会根据你的依赖判断是否进行自动配置
+ 3、我们可以自定义配置覆盖原来的
+	3.1、我们自己java配置以后，默认配置失效
+	3.2、我们通过属性文件覆盖属性
+	
+	
+张虎翼
+传智男神
+颜值担当
+代码小王子
+键盘上的舞者
+
+185418327
+
+
+SpringMVC
+ 1、端口 。server.port
+ 2、映射路径：server.servlet.path:
+ 3、高级配置：
+	@Configuration
+	class implements WebMvcConfigure{
+		addInterceotors(InterceptorRegistry registry){
+		}
+	}
+MyBatis:
+1、别名包：
+  mybatis.type-aliases-package: cn.itcast.pojo
+2、扫描mapper
+	@MapperScan("cn.itcast.mapper")
+	
+	
+	
+BeanPostProcesser

@@ -1,0 +1,11 @@
+spring:
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 192.168.206.66:9300
+
+logging:
+  level:
+    org.springframework:
+      debug
+
